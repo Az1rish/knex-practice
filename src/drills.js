@@ -1,12 +1,15 @@
 require('dotenv').config()
 const knex = require('knex')
+const ShoppingListService = require('./shopping-list-service')
 
 const knexInstance = knex({
     client: 'pg',
     connection:process.env.DB_URL,
 })
 
-function searchByName(searchTerm) {
+console.log(ShoppingListService.getAllItems())
+
+/*function searchByName(searchTerm) {
     knexInstance
         .select('*')
         .from('shopping_list')
@@ -17,7 +20,7 @@ function searchByName(searchTerm) {
         })
 }
 
-searchByName('dogs')
+searchByName('urger')
 
 function paginateItems(pageNumber) {
     const itemsPerPage = 6
@@ -64,4 +67,4 @@ function costPerCategory() {
         })
 }
 
-costPerCategory()
+costPerCategory()*/

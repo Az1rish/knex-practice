@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, content, date_published)
+VALUES
+    ('Post 1', 'Lorem ipsum',  now() - '17 days'::INTERVAL),
+    ('Post 2', 'Lorem ipsum',  now() - '16 days'::INTERVAL),
+    ('Post 3', 'Lorem ipsum',  now() - '15 days'::INTERVAL),
+    ('Post 4', 'Lorem ipsum',  now() - '14 days'::INTERVAL),
+    ('Post 5', 'Lorem ipsum',  now() - '13 days'::INTERVAL),
+    ('Post 6', 'Lorem ipsum',  now() - '12 days'::INTERVAL),
+    ('Post 7', 'Lorem ipsum',  now() - '11 days'::INTERVAL),
+    ('Post 8', 'Lorem ipsum',  now() - '10 days'::INTERVAL),
+    ('Post 9', 'Lorem ipsum',  now() - '9 days'::INTERVAL),
+    ('Post 10', 'Lorem ipsum', now() - '8 days'::INTERVAL),
+    ('Post 11', 'Lorem ipsum', now() - '7 days'::INTERVAL),
+    ('Post 12', 'Lorem ipsum', now() - '6 days'::INTERVAL),
+    ('Post 13', 'Lorem ipsum', now() - '5 days'::INTERVAL),
+    ('Post 14', 'Lorem ipsum', now() - '4 days'::INTERVAL),
+    ('Post 15', 'Lorem ipsum', now() - '3 days'::INTERVAL),
+    ('Post 16', 'Lorem ipsum', now() - '2 days'::INTERVAL),
+    ('Post 17', 'Lorem ipsum', now() - '1 days'::INTERVAL),
+    ('Post 18', 'Lorem ipsum', now() - '15 hours'::INTERVAL),
+    ('Post 19', 'Lorem ipsum', now() - '5 hours'::INTERVAL),
+    ('Post 20', 'Lorem ipsum', now())
